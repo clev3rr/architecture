@@ -20,7 +20,7 @@ powershell -ExecutionPolicy Bypass -File .\start-client.ps1
 
 Введіть повідомлення. `/new` відкриває нову сесію для наступного повідомлення, `/exit` завершує роботу. Порожній рядок також є повідомленням. Клієнт показує ID RSA, ID сесії, порядковий номер, шифротекст, розшифровану відповідь і час приймання сервером. Сервер може запускатися кілька секунд: спочатку він створює 10 пар RSA.
 
-Для консольного клієнта встановлено `UseAppHost=false`: `dotnet run` запускає керовану DLL через .NET host, без окремого `Lab6.Client.exe`. Це штатний [режим запуску .NET](https://learn.microsoft.com/en-us/dotnet/core/deploying/), перевірений на цьому ПК. Команда `start-client.ps1` залишається тією самою; змінювати Windows Application Control не потрібно.
+Для сервера та консольного клієнта встановлено `UseAppHost=false`: `dotnet run` запускає керовані DLL через .NET host, без окремих `Lab6.Server.exe` і `Lab6.Client.exe`. Це штатний [режим запуску .NET](https://learn.microsoft.com/en-us/dotnet/core/deploying/), перевірений на цьому ПК. Команди `start-server.ps1` та `start-client.ps1` залишаються тими самими; змінювати Windows Application Control не потрібно. Повний обмін через обидва скрипти перевірено на `http://localhost:5080`; протокол збережено в `docs/windows-launch-check.txt`.
 
 Локальна копія SDK міститься в `.tools/dotnet` і автоматично використовується скриптами. На іншому комп'ютері потрібно встановити .NET SDK 10; SDK і результати збірки до Git не включаються.
 

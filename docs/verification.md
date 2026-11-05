@@ -32,4 +32,10 @@ GET /openapi/v1.json — 200. OpenAPI 3.1.1, 6 маршрутів. Для /api/s
 
 ## Звіт
 
+## Перевірка скриптів запуску у Windows після виправлення
+
+Для обох застосунків встановлено `UseAppHost=false`. Сервер запущено командою `powershell -ExecutionPolicy Bypass -File .\start-server.ps1`, клієнт — командою `powershell -ExecutionPolicy Bypass -File .\start-client.ps1`. Сервер слухав `http://localhost:5080`; `/health` повернув `{"status":"ok"}`. Клієнт надіслав два повідомлення в одній сесії (sequence 1 і 2), після `/new` відкрив нову сесію (sequence 1), отримав усі відповіді та завершився з кодом 0. Повний фактичний вивід міститься в `windows-launch-check.txt`.
+
+## Звіт
+
 PDF містить 8 сторінок: титульна, вимоги й архітектура, RSA/AES, діаграма обміну, API, результати перевірок, Docker/CI, висновки та джерела. Усі сторінки відрендерено й перевірено візуально.
