@@ -1,0 +1,785 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="016aa8c2-2335-433f-922d-d0ba7db56712" name="@runnervm7aw5e 2026-11-05 19:52:34" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-11-05T19:52:34.9936580+00:00" queuing="2026-11-05T19:52:34.9936581+00:00" start="2026-11-05T19:52:33.9053454+00:00" finish="2026-11-05T19:52:44.6207332+00:00" />
+  <TestSettings name="default" id="14e357b1-3c13-4ebc-b087-b8e6861ca431">
+    <Deployment runDeploymentRoot="_runnervm7aw5e_2026-11-05_19_52_34" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="ac4643ef-2067-4d5a-bf9e-7deca428aaa6" testId="38247d76-f9fc-19f3-1702-9c356f6d27bc" testName="Lab6.Tests.ApiTests.ClientsHaveIndependentSessions" computerName="runnervm7aw5e" duration="00:00:00.0211888" startTime="2026-11-05T19:52:40.5237027+00:00" endTime="2026-11-05T19:52:40.5444039+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac4643ef-2067-4d5a-bf9e-7deca428aaa6" />
+    <UnitTestResult executionId="8b55dd29-c84b-4935-a2fb-f76cad6a57f5" testId="49f75645-0e78-614f-809f-c8f363f566f6" testName="Lab6.Tests.CryptoTests.AesGeneratesIndependentKeysAndIvs" computerName="runnervm7aw5e" duration="00:00:00.0001495" startTime="2026-11-05T19:52:34.9594413+00:00" endTime="2026-11-05T19:52:34.9595241+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b55dd29-c84b-4935-a2fb-f76cad6a57f5" />
+    <UnitTestResult executionId="13022cc1-0782-43be-97fe-21d6d16629ca" testId="58ca278c-69df-e04b-5e2c-5bffdae3d128" testName="Lab6.Tests.ApiTests.ModifiedPacketIsRejectedWithoutAdvancingSequence" computerName="runnervm7aw5e" duration="00:00:00.0100141" startTime="2026-11-05T19:52:40.5445845+00:00" endTime="2026-11-05T19:52:40.5547440+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13022cc1-0782-43be-97fe-21d6d16629ca" />
+    <UnitTestResult executionId="4535b225-b5cb-4014-acb3-8dcd0c5949cc" testId="5869b3e3-b163-1c80-429d-31e3a5981632" testName="Lab6.Tests.CryptoTests.AesRejectsModifiedNonceTagOrCiphertext(index: 0)" computerName="runnervm7aw5e" duration="00:00:00.0000230" startTime="2026-11-05T19:52:34.9544129+00:00" endTime="2026-11-05T19:52:34.9544929+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4535b225-b5cb-4014-acb3-8dcd0c5949cc" />
+    <UnitTestResult executionId="d098d728-294d-448a-b561-084b23105c03" testId="def35016-9473-c4d4-7b2d-be41ab67cb9b" testName="Lab6.Tests.CryptoTests.RsaRoundTrip(text: &quot;&quot;)" computerName="runnervm7aw5e" duration="00:00:00.0089449" startTime="2026-11-05T19:52:34.9101193+00:00" endTime="2026-11-05T19:52:34.9102158+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d098d728-294d-448a-b561-084b23105c03" />
+    <UnitTestResult executionId="3952aa55-bdfa-4165-86ae-e6a9aae40b7c" testId="37fabe6f-b964-00c8-4eaf-a68f3006a72d" testName="Lab6.Tests.CryptoTests.RsaKeysAreImportableAnd3072Bits" computerName="runnervm7aw5e" duration="00:00:00.0030138" startTime="2026-11-05T19:52:34.9646737+00:00" endTime="2026-11-05T19:52:34.9647410+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3952aa55-bdfa-4165-86ae-e6a9aae40b7c" />
+    <UnitTestResult executionId="f1d3e89b-0ac8-4c91-8343-bc99a2bb7c6e" testId="dbc9a29e-3ea4-926f-9cbc-7314de4664a7" testName="Lab6.Tests.CryptoTests.AesRejectsMalformedCiphertext(ciphertext: &quot;%%%&quot;)" computerName="runnervm7aw5e" duration="00:00:00.0007930" startTime="2026-11-05T19:52:34.9125403+00:00" endTime="2026-11-05T19:52:34.9131396+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f1d3e89b-0ac8-4c91-8343-bc99a2bb7c6e" />
+    <UnitTestResult executionId="62795f3a-75db-491e-8cca-a62511d38120" testId="3daa0295-54b9-3219-28df-9d050d3e9306" testName="Lab6.Tests.CryptoTests.AesRoundTrip(text: &quot;Hello, server!&quot;)" computerName="runnervm7aw5e" duration="00:00:00.0002240" startTime="2026-11-05T19:52:34.9548681+00:00" endTime="2026-11-05T19:52:34.9549406+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62795f3a-75db-491e-8cca-a62511d38120" />
+    <UnitTestResult executionId="314bbb98-9590-4707-9ac3-73a6b114929b" testId="8525ae20-8cb9-abdd-f012-1cd4637ecf7d" testName="Lab6.Tests.ApiTests.MessageSessionBindingIsChecked" computerName="runnervm7aw5e" duration="00:00:00.0024197" startTime="2026-11-05T19:52:39.7432394+00:00" endTime="2026-11-05T19:52:39.7457027+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="314bbb98-9590-4707-9ac3-73a6b114929b" />
+    <UnitTestResult executionId="56e524fc-fe18-404f-becc-f68f9d598479" testId="3d6b4b04-7305-9332-bb59-5fae7da1c360" testName="Lab6.Tests.ApiTests.MissingHeadersReturn400" computerName="runnervm7aw5e" duration="00:00:00.0079881" startTime="2026-11-05T19:52:44.5376637+00:00" endTime="2026-11-05T19:52:44.5458770+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56e524fc-fe18-404f-becc-f68f9d598479" />
+    <UnitTestResult executionId="2df3c18b-6f7e-4e0a-b870-9630b792eb1f" testId="7be408ee-64e8-a849-04e9-24d5e5febba8" testName="Lab6.Tests.CryptoTests.AesRejectsModifiedNonceTagOrCiphertext(index: 28)" computerName="runnervm7aw5e" duration="00:00:00.0010705" startTime="2026-11-05T19:52:34.9135625+00:00" endTime="2026-11-05T19:52:34.9145222+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2df3c18b-6f7e-4e0a-b870-9630b792eb1f" />
+    <UnitTestResult executionId="0016be3a-18ba-4c65-b060-f3b16cc01fd4" testId="a586fd95-f5f9-a7ed-c0bf-0e719bb971f4" testName="Lab6.Tests.ApiTests.OpenApiIncludesAllEndpointsAndNoPrivateKeys" computerName="runnervm7aw5e" duration="00:00:05.2384494" startTime="2026-11-05T19:52:34.4363104+00:00" endTime="2026-11-05T19:52:39.6790924+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0016be3a-18ba-4c65-b060-f3b16cc01fd4" />
+    <UnitTestResult executionId="ef6d391b-ec91-481c-80fb-e6f6d4d0f055" testId="72057726-ca80-9cc1-8f15-3ae7c3dfe9df" testName="Lab6.Tests.ApiTests.UnknownRsaKeyReturns404" computerName="runnervm7aw5e" duration="00:00:00.0018612" startTime="2026-11-05T19:52:44.5460028+00:00" endTime="2026-11-05T19:52:44.5480128+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef6d391b-ec91-481c-80fb-e6f6d4d0f055" />
+    <UnitTestResult executionId="727bb078-18d3-44d6-8d7e-53ca751888ca" testId="c740d0cd-00bc-97af-9807-75953c113a72" testName="Lab6.Tests.CryptoTests.RsaRejectsWrongPrivateKey" computerName="runnervm7aw5e" duration="00:00:01.5913858" startTime="2026-11-05T19:52:34.9648754+00:00" endTime="2026-11-05T19:52:36.5204224+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="727bb078-18d3-44d6-8d7e-53ca751888ca" />
+    <UnitTestResult executionId="a2aadec1-9476-4529-a83d-ec0d0d5e7e5e" testId="28be0869-97a6-eab7-53b8-ae3263bf2bd7" testName="Lab6.Tests.ApiTests.GenerateAndReadRsaKey" computerName="runnervm7aw5e" duration="00:00:00.7767131" startTime="2026-11-05T19:52:39.7459571+00:00" endTime="2026-11-05T19:52:40.5227759+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a2aadec1-9476-4529-a83d-ec0d0d5e7e5e" />
+    <UnitTestResult executionId="a8ac6c39-1491-4f1b-8b72-347a9b388552" testId="af23dad1-975f-36f0-5b49-d527d7f9a58a" testName="Lab6.Tests.ApiTests.UnknownRsaIdReturns404DuringHandshake" computerName="runnervm7aw5e" duration="00:00:00.0023898" startTime="2026-11-05T19:52:39.7405175+00:00" endTime="2026-11-05T19:52:39.7429645+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8ac6c39-1491-4f1b-8b72-347a9b388552" />
+    <UnitTestResult executionId="f4dc1a35-b667-49fd-8c17-1e1ef3a5cb3b" testId="4ea08d18-d841-4e46-8333-8eeddd7428b5" testName="Lab6.Tests.CryptoTests.RsaUsesRandomizedPadding" computerName="runnervm7aw5e" duration="00:00:00.0026381" startTime="2026-11-05T19:52:34.9559227+00:00" endTime="2026-11-05T19:52:34.9559866+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4dc1a35-b667-49fd-8c17-1e1ef3a5cb3b" />
+    <UnitTestResult executionId="5d11dd22-0545-4e35-b215-35ba8c5585bc" testId="7885efe4-529e-1f9d-c830-ca7b493f0df0" testName="Lab6.Tests.CryptoTests.AesRejectsMalformedCiphertext(ciphertext: &quot;AA==&quot;)" computerName="runnervm7aw5e" duration="00:00:00.0002120" startTime="2026-11-05T19:52:34.9133332+00:00" endTime="2026-11-05T19:52:34.9134068+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d11dd22-0545-4e35-b215-35ba8c5585bc" />
+    <UnitTestResult executionId="8782d683-7406-4200-87ea-93bcfbcdf2c2" testId="8aa7eca3-f7c9-2f65-ebe1-79c6ce9eaacd" testName="Lab6.Tests.CryptoTests.AesHandlesLongMessages" computerName="runnervm7aw5e" duration="00:00:00.0058811" startTime="2026-11-05T19:52:34.9644388+00:00" endTime="2026-11-05T19:52:34.9645127+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8782d683-7406-4200-87ea-93bcfbcdf2c2" />
+    <UnitTestResult executionId="9b594a4b-7e6b-4e5a-a5ec-bf8cc6898999" testId="0a526631-5b76-87cc-6c00-250f4dbc6b5d" testName="Lab6.Tests.CryptoTests.RsaRoundTrip(text: &quot;Привіт, сервере! \ud83d\udd10\nДругий рядок&quot;)" computerName="runnervm7aw5e" duration="00:00:00.0023299" startTime="2026-11-05T19:52:34.9110742+00:00" endTime="2026-11-05T19:52:34.9123041+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b594a4b-7e6b-4e5a-a5ec-bf8cc6898999" />
+    <UnitTestResult executionId="bff78410-3c97-452d-a548-9f2ff624be48" testId="0605e651-b64d-e392-8450-79b99c6e13c7" testName="Lab6.Tests.ApiTests.ServerGeneratesTenKeysAtStartup" computerName="runnervm7aw5e" duration="00:00:03.9240424" startTime="2026-11-05T19:52:40.5556645+00:00" endTime="2026-11-05T19:52:44.4789647+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bff78410-3c97-452d-a548-9f2ff624be48" />
+    <UnitTestResult executionId="22ab9c54-f754-4b72-8794-f4f0d0456a51" testId="c8f20ccf-2888-c4ca-c57f-d1942128d526" testName="Lab6.Tests.CryptoTests.AesRoundTrip(text: &quot;Українська абетка Ґґ Єє Іі Її \ud83d\udd10\nНовий рядок&quot;)" computerName="runnervm7aw5e" duration="00:00:00.0001856" startTime="2026-11-05T19:52:34.9550570+00:00" endTime="2026-11-05T19:52:34.9551267+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22ab9c54-f754-4b72-8794-f4f0d0456a51" />
+    <UnitTestResult executionId="12d4fcbe-a26a-421e-9dc2-59d981e40a8b" testId="ea69433e-bb06-7095-1db3-70bd3c46f3ea" testName="Lab6.Tests.CryptoTests.AesPacketInteroperatesWithBclGcm" computerName="runnervm7aw5e" duration="00:00:00.0002797" startTime="2026-11-05T19:52:34.9561098+00:00" endTime="2026-11-05T19:52:34.9561674+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12d4fcbe-a26a-421e-9dc2-59d981e40a8b" />
+    <UnitTestResult executionId="665f1c15-87e0-46a7-a557-5830c6b259d6" testId="54c9502f-6ca5-3bfd-4238-3225de7e2a1a" testName="Lab6.Tests.ApiTests.MalformedJsonReturns400" computerName="runnervm7aw5e" duration="00:00:00.0086916" startTime="2026-11-05T19:52:44.5555855+00:00" endTime="2026-11-05T19:52:44.5644492+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="665f1c15-87e0-46a7-a557-5830c6b259d6" />
+    <UnitTestResult executionId="724268e5-a53e-4fe1-b908-7b0bb31463ec" testId="e01753f1-3b86-191a-3922-9316d4132ce8" testName="Lab6.Tests.ApiTests.ActualClientExchangesSeveralMessagesAndStartsNewSession" computerName="runnervm7aw5e" duration="00:00:00.0531943" startTime="2026-11-05T19:52:44.4796924+00:00" endTime="2026-11-05T19:52:44.5326549+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="724268e5-a53e-4fe1-b908-7b0bb31463ec" />
+    <UnitTestResult executionId="7ebe0cae-3c55-48c7-9646-8340628b9ddd" testId="3bc8bb0d-f13e-73c5-3e6e-f9ed2459b699" testName="Lab6.Tests.ApiTests.SessionHeaderMustMatchEncryptedSessionId" computerName="runnervm7aw5e" duration="00:00:00.0361138" startTime="2026-11-05T19:52:39.6801942+00:00" endTime="2026-11-05T19:52:39.7163165+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ebe0cae-3c55-48c7-9646-8340628b9ddd" />
+    <UnitTestResult executionId="23358be7-3761-4a7f-90ea-7eb2cd5b28b2" testId="d42444a4-b516-f857-842b-0bd534fef042" testName="Lab6.Tests.ApiTests.DuplicateSessionReturns409" computerName="runnervm7aw5e" duration="00:00:00.0104715" startTime="2026-11-05T19:52:39.7296749+00:00" endTime="2026-11-05T19:52:39.7402485+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23358be7-3761-4a7f-90ea-7eb2cd5b28b2" />
+    <UnitTestResult executionId="19496b01-2e54-4d02-9b97-56720be2ffd1" testId="ecd71c1f-eb4e-20a6-d2c4-a5eeac4f46da" testName="Lab6.Tests.ApiTests.OversizedMessageIsRejected" computerName="runnervm7aw5e" duration="00:00:00.0096142" startTime="2026-11-05T19:52:39.7165507+00:00" endTime="2026-11-05T19:52:39.7262599+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19496b01-2e54-4d02-9b97-56720be2ffd1" />
+    <UnitTestResult executionId="7856bde8-2564-4162-a16d-3757572e13c7" testId="e8609f4a-ce13-8ed6-db10-2b7fb1740566" testName="Lab6.Tests.ApiTests.ReplayIsRejectedWithoutBreakingNextMessage" computerName="runnervm7aw5e" duration="00:00:00.0070892" startTime="2026-11-05T19:52:44.5481523+00:00" endTime="2026-11-05T19:52:44.5554446+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7856bde8-2564-4162-a16d-3757572e13c7" />
+    <UnitTestResult executionId="298d4316-6698-45bf-a015-2861b068cfc1" testId="21534547-bb98-1067-a1aa-d09bd5caf93f" testName="Lab6.Tests.CryptoTests.AesDoesNotReuseNonceWithinSession" computerName="runnervm7aw5e" duration="00:00:00.0028589" startTime="2026-11-05T19:52:36.5246516+00:00" endTime="2026-11-05T19:52:36.5277028+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="298d4316-6698-45bf-a015-2861b068cfc1" />
+    <UnitTestResult executionId="1afe96b0-64c2-4c6b-b3ad-6e56a6e91aa0" testId="aa058c78-3d8d-41ce-edbb-7a8c38b229b0" testName="Lab6.Tests.CryptoTests.AesRoundTrip(text: &quot;&quot;)" computerName="runnervm7aw5e" duration="00:00:00.0000324" startTime="2026-11-05T19:52:34.9552535+00:00" endTime="2026-11-05T19:52:34.9553443+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1afe96b0-64c2-4c6b-b3ad-6e56a6e91aa0" />
+    <UnitTestResult executionId="c397b372-4ba3-4871-a8d6-8e401cbba8d3" testId="088dbab8-ff28-214a-8efd-f6dc2c96ac17" testName="Lab6.Tests.ApiTests.ExpiredSessionReturns410" computerName="runnervm7aw5e" duration="00:00:00.0027879" startTime="2026-11-05T19:52:39.7265434+00:00" endTime="2026-11-05T19:52:39.7294324+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c397b372-4ba3-4871-a8d6-8e401cbba8d3" />
+    <UnitTestResult executionId="6e8c856c-2809-4252-97ec-acdd121840ef" testId="6157be3b-4dc4-e740-ac19-ce2378ca54c2" testName="Lab6.Tests.CryptoTests.RsaRejectsMalformedBase64" computerName="runnervm7aw5e" duration="00:00:00.4543211" startTime="2026-11-05T19:52:34.4348549+00:00" endTime="2026-11-05T19:52:34.8980930+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e8c856c-2809-4252-97ec-acdd121840ef" />
+    <UnitTestResult executionId="0e26b3b4-4fae-40ca-b503-dac02cd57ca2" testId="0f1d128a-bcfa-427d-2809-d7a8c2f8588e" testName="Lab6.Tests.ApiTests.RandomKeyCarriesMatchingRsaId" computerName="runnervm7aw5e" duration="00:00:00.0021450" startTime="2026-11-05T19:52:44.5328290+00:00" endTime="2026-11-05T19:52:44.5350893+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e26b3b4-4fae-40ca-b503-dac02cd57ca2" />
+    <UnitTestResult executionId="19800d49-7c91-4c42-933b-974626b7ddcc" testId="1fe611fb-0f6d-f3fc-edf0-d935e3cc8d93" testName="Lab6.Tests.CryptoTests.AesRejectsInvalidKeySize" computerName="runnervm7aw5e" duration="00:00:00.0001787" startTime="2026-11-05T19:52:34.9555378+00:00" endTime="2026-11-05T19:52:34.9555978+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19800d49-7c91-4c42-933b-974626b7ddcc" />
+    <UnitTestResult executionId="19d6456b-2b1d-4ce4-8cf2-978034cd49e8" testId="5a5a476b-227d-8f9c-be75-cdb618855b30" testName="Lab6.Tests.CryptoTests.AesRejectsModifiedNonceTagOrCiphertext(index: 12)" computerName="runnervm7aw5e" duration="00:00:00.0002480" startTime="2026-11-05T19:52:34.9146883+00:00" endTime="2026-11-05T19:52:34.9147604+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19d6456b-2b1d-4ce4-8cf2-978034cd49e8" />
+    <UnitTestResult executionId="c055310d-5aae-471d-8e10-b68feca5f513" testId="874b09bb-5582-88ae-e986-ed80ce3f8a91" testName="Lab6.Tests.CryptoTests.AesRejectsWrongKeyAndIv" computerName="runnervm7aw5e" duration="00:00:00.0002117" startTime="2026-11-05T19:52:34.9557419+00:00" endTime="2026-11-05T19:52:34.9557955+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c055310d-5aae-471d-8e10-b68feca5f513" />
+    <UnitTestResult executionId="7ed5df92-cd06-4bf6-9b02-b43241a4948d" testId="4bfdaa28-7b29-4e98-f0ae-b255a11096d8" testName="Lab6.Tests.CryptoTests.RsaRoundTrip(text: &quot;Hello, server!&quot;)" computerName="runnervm7aw5e" duration="00:00:00.0026782" startTime="2026-11-05T19:52:34.9108860+00:00" endTime="2026-11-05T19:52:34.9109522+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ed5df92-cd06-4bf6-9b02-b43241a4948d" />
+    <UnitTestResult executionId="6a74dfbd-82f4-4a77-b2c7-da9cdf748e28" testId="cc3696d1-4d3a-ea29-b4a5-7b976829fb79" testName="Lab6.Tests.ApiTests.UnknownSessionReturns404" computerName="runnervm7aw5e" duration="00:00:00.0021163" startTime="2026-11-05T19:52:44.5352355+00:00" endTime="2026-11-05T19:52:44.5375360+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a74dfbd-82f4-4a77-b2c7-da9cdf748e28" />
+    <UnitTestResult executionId="85856015-4d8b-4068-8ce1-32f34f52d9f9" testId="ceba3a50-cb8c-5cf9-fba6-6c2a4801964d" testName="Lab6.Tests.CryptoTests.RsaEnforcesOaepByteLimit" computerName="runnervm7aw5e" duration="00:00:00.0044399" startTime="2026-11-05T19:52:36.5207048+00:00" endTime="2026-11-05T19:52:36.5242182+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85856015-4d8b-4068-8ce1-32f34f52d9f9" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Lab6.Tests.ApiTests.MessageSessionBindingIsChecked" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="8525ae20-8cb9-abdd-f012-1cd4637ecf7d">
+      <Execution id="314bbb98-9590-4707-9ac3-73a6b114929b" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.ApiTests" name="MessageSessionBindingIsChecked" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.CryptoTests.RsaRoundTrip(text: &quot;Привіт, сервере! \ud83d\udd10\nДругий рядок&quot;)" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="0a526631-5b76-87cc-6c00-250f4dbc6b5d">
+      <Execution id="9b594a4b-7e6b-4e5a-a5ec-bf8cc6898999" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.CryptoTests" name="RsaRoundTrip" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.ApiTests.UnknownSessionReturns404" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="cc3696d1-4d3a-ea29-b4a5-7b976829fb79">
+      <Execution id="6a74dfbd-82f4-4a77-b2c7-da9cdf748e28" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.ApiTests" name="UnknownSessionReturns404" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.ApiTests.ActualClientExchangesSeveralMessagesAndStartsNewSession" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="e01753f1-3b86-191a-3922-9316d4132ce8">
+      <Execution id="724268e5-a53e-4fe1-b908-7b0bb31463ec" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.ApiTests" name="ActualClientExchangesSeveralMessagesAndStartsNewSession" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.ApiTests.ClientsHaveIndependentSessions" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="38247d76-f9fc-19f3-1702-9c356f6d27bc">
+      <Execution id="ac4643ef-2067-4d5a-bf9e-7deca428aaa6" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.ApiTests" name="ClientsHaveIndependentSessions" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.CryptoTests.AesRejectsModifiedNonceTagOrCiphertext(index: 0)" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="5869b3e3-b163-1c80-429d-31e3a5981632">
+      <Execution id="4535b225-b5cb-4014-acb3-8dcd0c5949cc" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.CryptoTests" name="AesRejectsModifiedNonceTagOrCiphertext" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.CryptoTests.AesRejectsModifiedNonceTagOrCiphertext(index: 12)" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="5a5a476b-227d-8f9c-be75-cdb618855b30">
+      <Execution id="19d6456b-2b1d-4ce4-8cf2-978034cd49e8" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.CryptoTests" name="AesRejectsModifiedNonceTagOrCiphertext" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.CryptoTests.AesRejectsWrongKeyAndIv" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="874b09bb-5582-88ae-e986-ed80ce3f8a91">
+      <Execution id="c055310d-5aae-471d-8e10-b68feca5f513" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.CryptoTests" name="AesRejectsWrongKeyAndIv" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.ApiTests.OpenApiIncludesAllEndpointsAndNoPrivateKeys" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="a586fd95-f5f9-a7ed-c0bf-0e719bb971f4">
+      <Execution id="0016be3a-18ba-4c65-b060-f3b16cc01fd4" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.ApiTests" name="OpenApiIncludesAllEndpointsAndNoPrivateKeys" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.CryptoTests.RsaEnforcesOaepByteLimit" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="ceba3a50-cb8c-5cf9-fba6-6c2a4801964d">
+      <Execution id="85856015-4d8b-4068-8ce1-32f34f52d9f9" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.CryptoTests" name="RsaEnforcesOaepByteLimit" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.ApiTests.GenerateAndReadRsaKey" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="28be0869-97a6-eab7-53b8-ae3263bf2bd7">
+      <Execution id="a2aadec1-9476-4529-a83d-ec0d0d5e7e5e" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.ApiTests" name="GenerateAndReadRsaKey" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.CryptoTests.AesRejectsModifiedNonceTagOrCiphertext(index: 28)" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="7be408ee-64e8-a849-04e9-24d5e5febba8">
+      <Execution id="2df3c18b-6f7e-4e0a-b870-9630b792eb1f" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.CryptoTests" name="AesRejectsModifiedNonceTagOrCiphertext" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.CryptoTests.AesGeneratesIndependentKeysAndIvs" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="49f75645-0e78-614f-809f-c8f363f566f6">
+      <Execution id="8b55dd29-c84b-4935-a2fb-f76cad6a57f5" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.CryptoTests" name="AesGeneratesIndependentKeysAndIvs" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.ApiTests.ReplayIsRejectedWithoutBreakingNextMessage" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="e8609f4a-ce13-8ed6-db10-2b7fb1740566">
+      <Execution id="7856bde8-2564-4162-a16d-3757572e13c7" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.ApiTests" name="ReplayIsRejectedWithoutBreakingNextMessage" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.ApiTests.ServerGeneratesTenKeysAtStartup" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="0605e651-b64d-e392-8450-79b99c6e13c7">
+      <Execution id="bff78410-3c97-452d-a548-9f2ff624be48" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.ApiTests" name="ServerGeneratesTenKeysAtStartup" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.ApiTests.ModifiedPacketIsRejectedWithoutAdvancingSequence" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="58ca278c-69df-e04b-5e2c-5bffdae3d128">
+      <Execution id="13022cc1-0782-43be-97fe-21d6d16629ca" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.ApiTests" name="ModifiedPacketIsRejectedWithoutAdvancingSequence" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.ApiTests.SessionHeaderMustMatchEncryptedSessionId" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="3bc8bb0d-f13e-73c5-3e6e-f9ed2459b699">
+      <Execution id="7ebe0cae-3c55-48c7-9646-8340628b9ddd" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.ApiTests" name="SessionHeaderMustMatchEncryptedSessionId" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.CryptoTests.AesHandlesLongMessages" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="8aa7eca3-f7c9-2f65-ebe1-79c6ce9eaacd">
+      <Execution id="8782d683-7406-4200-87ea-93bcfbcdf2c2" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.CryptoTests" name="AesHandlesLongMessages" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.ApiTests.ExpiredSessionReturns410" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="088dbab8-ff28-214a-8efd-f6dc2c96ac17">
+      <Execution id="c397b372-4ba3-4871-a8d6-8e401cbba8d3" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.ApiTests" name="ExpiredSessionReturns410" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.CryptoTests.AesDoesNotReuseNonceWithinSession" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="21534547-bb98-1067-a1aa-d09bd5caf93f">
+      <Execution id="298d4316-6698-45bf-a015-2861b068cfc1" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.CryptoTests" name="AesDoesNotReuseNonceWithinSession" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.CryptoTests.AesPacketInteroperatesWithBclGcm" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="ea69433e-bb06-7095-1db3-70bd3c46f3ea">
+      <Execution id="12d4fcbe-a26a-421e-9dc2-59d981e40a8b" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.CryptoTests" name="AesPacketInteroperatesWithBclGcm" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.ApiTests.MalformedJsonReturns400" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="54c9502f-6ca5-3bfd-4238-3225de7e2a1a">
+      <Execution id="665f1c15-87e0-46a7-a557-5830c6b259d6" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.ApiTests" name="MalformedJsonReturns400" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.CryptoTests.RsaRoundTrip(text: &quot;&quot;)" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="def35016-9473-c4d4-7b2d-be41ab67cb9b">
+      <Execution id="d098d728-294d-448a-b561-084b23105c03" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.CryptoTests" name="RsaRoundTrip" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.CryptoTests.AesRejectsMalformedCiphertext(ciphertext: &quot;AA==&quot;)" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="7885efe4-529e-1f9d-c830-ca7b493f0df0">
+      <Execution id="5d11dd22-0545-4e35-b215-35ba8c5585bc" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.CryptoTests" name="AesRejectsMalformedCiphertext" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.CryptoTests.AesRejectsMalformedCiphertext(ciphertext: &quot;%%%&quot;)" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="dbc9a29e-3ea4-926f-9cbc-7314de4664a7">
+      <Execution id="f1d3e89b-0ac8-4c91-8343-bc99a2bb7c6e" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.CryptoTests" name="AesRejectsMalformedCiphertext" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.ApiTests.MissingHeadersReturn400" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="3d6b4b04-7305-9332-bb59-5fae7da1c360">
+      <Execution id="56e524fc-fe18-404f-becc-f68f9d598479" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.ApiTests" name="MissingHeadersReturn400" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.CryptoTests.RsaRoundTrip(text: &quot;Hello, server!&quot;)" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="4bfdaa28-7b29-4e98-f0ae-b255a11096d8">
+      <Execution id="7ed5df92-cd06-4bf6-9b02-b43241a4948d" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.CryptoTests" name="RsaRoundTrip" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.CryptoTests.RsaRejectsWrongPrivateKey" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="c740d0cd-00bc-97af-9807-75953c113a72">
+      <Execution id="727bb078-18d3-44d6-8d7e-53ca751888ca" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.CryptoTests" name="RsaRejectsWrongPrivateKey" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.ApiTests.UnknownRsaIdReturns404DuringHandshake" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="af23dad1-975f-36f0-5b49-d527d7f9a58a">
+      <Execution id="a8ac6c39-1491-4f1b-8b72-347a9b388552" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.ApiTests" name="UnknownRsaIdReturns404DuringHandshake" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.ApiTests.RandomKeyCarriesMatchingRsaId" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="0f1d128a-bcfa-427d-2809-d7a8c2f8588e">
+      <Execution id="0e26b3b4-4fae-40ca-b503-dac02cd57ca2" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.ApiTests" name="RandomKeyCarriesMatchingRsaId" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.CryptoTests.AesRoundTrip(text: &quot;Українська абетка Ґґ Єє Іі Її \ud83d\udd10\nНовий рядок&quot;)" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="c8f20ccf-2888-c4ca-c57f-d1942128d526">
+      <Execution id="22ab9c54-f754-4b72-8794-f4f0d0456a51" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.CryptoTests" name="AesRoundTrip" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.ApiTests.UnknownRsaKeyReturns404" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="72057726-ca80-9cc1-8f15-3ae7c3dfe9df">
+      <Execution id="ef6d391b-ec91-481c-80fb-e6f6d4d0f055" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.ApiTests" name="UnknownRsaKeyReturns404" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.CryptoTests.RsaUsesRandomizedPadding" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="4ea08d18-d841-4e46-8333-8eeddd7428b5">
+      <Execution id="f4dc1a35-b667-49fd-8c17-1e1ef3a5cb3b" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.CryptoTests" name="RsaUsesRandomizedPadding" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.ApiTests.OversizedMessageIsRejected" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="ecd71c1f-eb4e-20a6-d2c4-a5eeac4f46da">
+      <Execution id="19496b01-2e54-4d02-9b97-56720be2ffd1" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.ApiTests" name="OversizedMessageIsRejected" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.CryptoTests.RsaKeysAreImportableAnd3072Bits" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="37fabe6f-b964-00c8-4eaf-a68f3006a72d">
+      <Execution id="3952aa55-bdfa-4165-86ae-e6a9aae40b7c" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.CryptoTests" name="RsaKeysAreImportableAnd3072Bits" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.CryptoTests.RsaRejectsMalformedBase64" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="6157be3b-4dc4-e740-ac19-ce2378ca54c2">
+      <Execution id="6e8c856c-2809-4252-97ec-acdd121840ef" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.CryptoTests" name="RsaRejectsMalformedBase64" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.ApiTests.DuplicateSessionReturns409" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="d42444a4-b516-f857-842b-0bd534fef042">
+      <Execution id="23358be7-3761-4a7f-90ea-7eb2cd5b28b2" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.ApiTests" name="DuplicateSessionReturns409" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.CryptoTests.AesRejectsInvalidKeySize" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="1fe611fb-0f6d-f3fc-edf0-d935e3cc8d93">
+      <Execution id="19800d49-7c91-4c42-933b-974626b7ddcc" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.CryptoTests" name="AesRejectsInvalidKeySize" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.CryptoTests.AesRoundTrip(text: &quot;&quot;)" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="aa058c78-3d8d-41ce-edbb-7a8c38b229b0">
+      <Execution id="1afe96b0-64c2-4c6b-b3ad-6e56a6e91aa0" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.CryptoTests" name="AesRoundTrip" />
+    </UnitTest>
+    <UnitTest name="Lab6.Tests.CryptoTests.AesRoundTrip(text: &quot;Hello, server!&quot;)" storage="/home/runner/work/architecture/architecture/tests/lab6.tests/bin/release/net10.0/lab6.tests.dll" id="3daa0295-54b9-3219-28df-9d050d3e9306">
+      <Execution id="62795f3a-75db-491e-8cca-a62511d38120" />
+      <TestMethod codeBase="/home/runner/work/architecture/architecture/tests/Lab6.Tests/bin/Release/net10.0/Lab6.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Lab6.Tests.CryptoTests" name="AesRoundTrip" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="38247d76-f9fc-19f3-1702-9c356f6d27bc" executionId="ac4643ef-2067-4d5a-bf9e-7deca428aaa6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49f75645-0e78-614f-809f-c8f363f566f6" executionId="8b55dd29-c84b-4935-a2fb-f76cad6a57f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="58ca278c-69df-e04b-5e2c-5bffdae3d128" executionId="13022cc1-0782-43be-97fe-21d6d16629ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5869b3e3-b163-1c80-429d-31e3a5981632" executionId="4535b225-b5cb-4014-acb3-8dcd0c5949cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="def35016-9473-c4d4-7b2d-be41ab67cb9b" executionId="d098d728-294d-448a-b561-084b23105c03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37fabe6f-b964-00c8-4eaf-a68f3006a72d" executionId="3952aa55-bdfa-4165-86ae-e6a9aae40b7c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dbc9a29e-3ea4-926f-9cbc-7314de4664a7" executionId="f1d3e89b-0ac8-4c91-8343-bc99a2bb7c6e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3daa0295-54b9-3219-28df-9d050d3e9306" executionId="62795f3a-75db-491e-8cca-a62511d38120" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8525ae20-8cb9-abdd-f012-1cd4637ecf7d" executionId="314bbb98-9590-4707-9ac3-73a6b114929b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d6b4b04-7305-9332-bb59-5fae7da1c360" executionId="56e524fc-fe18-404f-becc-f68f9d598479" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7be408ee-64e8-a849-04e9-24d5e5febba8" executionId="2df3c18b-6f7e-4e0a-b870-9630b792eb1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a586fd95-f5f9-a7ed-c0bf-0e719bb971f4" executionId="0016be3a-18ba-4c65-b060-f3b16cc01fd4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72057726-ca80-9cc1-8f15-3ae7c3dfe9df" executionId="ef6d391b-ec91-481c-80fb-e6f6d4d0f055" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c740d0cd-00bc-97af-9807-75953c113a72" executionId="727bb078-18d3-44d6-8d7e-53ca751888ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="28be0869-97a6-eab7-53b8-ae3263bf2bd7" executionId="a2aadec1-9476-4529-a83d-ec0d0d5e7e5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af23dad1-975f-36f0-5b49-d527d7f9a58a" executionId="a8ac6c39-1491-4f1b-8b72-347a9b388552" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ea08d18-d841-4e46-8333-8eeddd7428b5" executionId="f4dc1a35-b667-49fd-8c17-1e1ef3a5cb3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7885efe4-529e-1f9d-c830-ca7b493f0df0" executionId="5d11dd22-0545-4e35-b215-35ba8c5585bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8aa7eca3-f7c9-2f65-ebe1-79c6ce9eaacd" executionId="8782d683-7406-4200-87ea-93bcfbcdf2c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0a526631-5b76-87cc-6c00-250f4dbc6b5d" executionId="9b594a4b-7e6b-4e5a-a5ec-bf8cc6898999" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0605e651-b64d-e392-8450-79b99c6e13c7" executionId="bff78410-3c97-452d-a548-9f2ff624be48" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c8f20ccf-2888-c4ca-c57f-d1942128d526" executionId="22ab9c54-f754-4b72-8794-f4f0d0456a51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ea69433e-bb06-7095-1db3-70bd3c46f3ea" executionId="12d4fcbe-a26a-421e-9dc2-59d981e40a8b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="54c9502f-6ca5-3bfd-4238-3225de7e2a1a" executionId="665f1c15-87e0-46a7-a557-5830c6b259d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e01753f1-3b86-191a-3922-9316d4132ce8" executionId="724268e5-a53e-4fe1-b908-7b0bb31463ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3bc8bb0d-f13e-73c5-3e6e-f9ed2459b699" executionId="7ebe0cae-3c55-48c7-9646-8340628b9ddd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d42444a4-b516-f857-842b-0bd534fef042" executionId="23358be7-3761-4a7f-90ea-7eb2cd5b28b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ecd71c1f-eb4e-20a6-d2c4-a5eeac4f46da" executionId="19496b01-2e54-4d02-9b97-56720be2ffd1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8609f4a-ce13-8ed6-db10-2b7fb1740566" executionId="7856bde8-2564-4162-a16d-3757572e13c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="21534547-bb98-1067-a1aa-d09bd5caf93f" executionId="298d4316-6698-45bf-a015-2861b068cfc1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa058c78-3d8d-41ce-edbb-7a8c38b229b0" executionId="1afe96b0-64c2-4c6b-b3ad-6e56a6e91aa0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="088dbab8-ff28-214a-8efd-f6dc2c96ac17" executionId="c397b372-4ba3-4871-a8d6-8e401cbba8d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6157be3b-4dc4-e740-ac19-ce2378ca54c2" executionId="6e8c856c-2809-4252-97ec-acdd121840ef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f1d128a-bcfa-427d-2809-d7a8c2f8588e" executionId="0e26b3b4-4fae-40ca-b503-dac02cd57ca2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1fe611fb-0f6d-f3fc-edf0-d935e3cc8d93" executionId="19800d49-7c91-4c42-933b-974626b7ddcc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a5a476b-227d-8f9c-be75-cdb618855b30" executionId="19d6456b-2b1d-4ce4-8cf2-978034cd49e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="874b09bb-5582-88ae-e986-ed80ce3f8a91" executionId="c055310d-5aae-471d-8e10-b68feca5f513" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4bfdaa28-7b29-4e98-f0ae-b255a11096d8" executionId="7ed5df92-cd06-4bf6-9b02-b43241a4948d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc3696d1-4d3a-ea29-b4a5-7b976829fb79" executionId="6a74dfbd-82f4-4a77-b2c7-da9cdf748e28" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ceba3a50-cb8c-5cf9-fba6-6c2a4801964d" executionId="85856015-4d8b-4068-8ce1-32f34f52d9f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="40" executed="40" passed="40" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.1+bf6400fd51 (64-bit .NET 10.0.14)
+[xUnit.net 00:00:00.08]   Discovering: Lab6.Tests
+[xUnit.net 00:00:00.12]   Discovered:  Lab6.Tests
+[xUnit.net 00:00:00.15]   Starting:    Lab6.Tests
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/runner/work/architecture/architecture/src/Lab6.Server
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost/openapi/v1.json - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider[1]
+      No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost/openapi/v1.json - 200 - application/json;charset=utf-8 251.8020ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/sessions - application/json;+charset=utf-8 574
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/sessions'
+info: Microsoft.AspNetCore.Http.Result.BadRequestObjectResult[1]
+      Setting HTTP status code 400.
+info: Microsoft.AspNetCore.Http.Result.BadRequestObjectResult[3]
+      Writing value of type '&lt;&gt;f__AnonymousType0`1' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/sessions'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/sessions - 400 - application/json;+charset=utf-8 18.6398ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/messages - application/json;+charset=utf-8 23184
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Http.Result.BadRequestObjectResult[1]
+      Setting HTTP status code 400.
+info: Microsoft.AspNetCore.Http.Result.BadRequestObjectResult[3]
+      Writing value of type '&lt;&gt;f__AnonymousType0`1' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/messages - 400 - application/json;+charset=utf-8 4.2693ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/messages - application/json;+charset=utf-8 21
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Http.Result.JsonResult[1]
+      Setting HTTP status code 410.
+info: Microsoft.AspNetCore.Http.Result.JsonResult[3]
+      Writing value of type '&lt;&gt;f__AnonymousType0`1' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/messages - 410 - application/json;+charset=utf-8 0.7781ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/sessions - application/json;+charset=utf-8 564
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/sessions'
+info: Microsoft.AspNetCore.Http.Result.CreatedResult[1]
+      Setting HTTP status code 201.
+info: Microsoft.AspNetCore.Http.Result.CreatedResult[3]
+      Writing value of type 'SessionCreated' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/sessions'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/sessions - 201 - application/json;+charset=utf-8 4.9672ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/sessions - application/json;+charset=utf-8 564
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/sessions'
+info: Microsoft.AspNetCore.Http.Result.ConflictObjectResult[1]
+      Setting HTTP status code 409.
+info: Microsoft.AspNetCore.Http.Result.ConflictObjectResult[3]
+      Writing value of type '&lt;&gt;f__AnonymousType0`1' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/sessions'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/sessions - 409 - application/json;+charset=utf-8 2.6696ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/sessions - application/json;+charset=utf-8 21
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/sessions'
+info: Microsoft.AspNetCore.Http.Result.NotFoundObjectResult[1]
+      Setting HTTP status code 404.
+info: Microsoft.AspNetCore.Http.Result.NotFoundObjectResult[3]
+      Writing value of type '&lt;&gt;f__AnonymousType0`1' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/sessions'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/sessions - 404 - application/json;+charset=utf-8 0.6186ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/messages - application/json;+charset=utf-8 166
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Http.Result.BadRequestObjectResult[1]
+      Setting HTTP status code 400.
+info: Microsoft.AspNetCore.Http.Result.BadRequestObjectResult[3]
+      Writing value of type '&lt;&gt;f__AnonymousType0`1' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/messages - 400 - application/json;+charset=utf-8 0.4684ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/crypto-keys/generate/rsa-keys - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/crypto-keys/generate/rsa-keys'
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type 'Int32' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/crypto-keys/generate/rsa-keys'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/crypto-keys/generate/rsa-keys - 200 - application/json;+charset=utf-8 769.2123ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost/api/crypto-keys/rsa-public-key/11 - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: GET /api/crypto-keys/rsa-public-key/{id:int}'
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type 'String' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /api/crypto-keys/rsa-public-key/{id:int}'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost/api/crypto-keys/rsa-public-key/11 - 200 - application/json;+charset=utf-8 1.2794ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost/api/crypto-keys/rsa-public-key - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: GET /api/crypto-keys/rsa-public-key'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost/api/crypto-keys/rsa-public-key - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: GET /api/crypto-keys/rsa-public-key'
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type 'String' as Json.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type 'String' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /api/crypto-keys/rsa-public-key'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /api/crypto-keys/rsa-public-key'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost/api/crypto-keys/rsa-public-key - 200 - application/json;+charset=utf-8 0.5873ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost/api/crypto-keys/rsa-public-key - 200 - application/json;+charset=utf-8 1.2332ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/sessions - application/json;+charset=utf-8 559
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/sessions - application/json;+charset=utf-8 594
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/sessions'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/sessions'
+info: Microsoft.AspNetCore.Http.Result.CreatedResult[1]
+      Setting HTTP status code 201.
+info: Microsoft.AspNetCore.Http.Result.CreatedResult[1]
+      Setting HTTP status code 201.
+info: Microsoft.AspNetCore.Http.Result.CreatedResult[3]
+      Writing value of type 'SessionCreated' as Json.
+info: Microsoft.AspNetCore.Http.Result.CreatedResult[3]
+      Writing value of type 'SessionCreated' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/sessions'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/sessions'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/sessions - 201 - application/json;+charset=utf-8 3.6093ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/sessions - 201 - application/json;+charset=utf-8 3.6276ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/messages - application/json;+charset=utf-8 161
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/messages - application/json;+charset=utf-8 170
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type 'CipherRequest' as Json.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type 'CipherRequest' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/messages - 200 - application/json;+charset=utf-8 2.4920ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/messages - 200 - application/json;+charset=utf-8 1.7044ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost/api/crypto-keys/rsa-public-key - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: GET /api/crypto-keys/rsa-public-key'
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type 'String' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /api/crypto-keys/rsa-public-key'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost/api/crypto-keys/rsa-public-key - 200 - application/json;+charset=utf-8 0.4117ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/sessions - application/json;+charset=utf-8 564
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/sessions'
+info: Microsoft.AspNetCore.Http.Result.CreatedResult[1]
+      Setting HTTP status code 201.
+info: Microsoft.AspNetCore.Http.Result.CreatedResult[3]
+      Writing value of type 'SessionCreated' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/sessions'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/sessions - 201 - application/json;+charset=utf-8 2.5013ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/messages - application/json;+charset=utf-8 176
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type 'CipherRequest' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/messages - 200 - application/json;+charset=utf-8 0.4004ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/messages - application/json;+charset=utf-8 176
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/messages - 400 - application/json;+charset=utf-8 0.9027ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/messages - application/json;+charset=utf-8 165
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type 'CipherRequest' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/messages - 200 - application/json;+charset=utf-8 0.3363ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost/api/crypto-keys/rsa-public-key - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: GET /api/crypto-keys/rsa-public-key'
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type 'String' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /api/crypto-keys/rsa-public-key'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost/api/crypto-keys/rsa-public-key - 200 - application/json;+charset=utf-8 1.3478ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/sessions - application/json;+charset=utf-8 564
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/sessions'
+info: Microsoft.AspNetCore.Http.Result.CreatedResult[1]
+      Setting HTTP status code 201.
+info: Microsoft.AspNetCore.Http.Result.CreatedResult[3]
+      Writing value of type 'SessionCreated' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/sessions'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/sessions - 201 - application/json;+charset=utf-8 2.6416ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/messages - application/json;+charset=utf-8 286
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type 'CipherRequest' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/messages - 200 - application/json;+charset=utf-8 0.3987ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/messages - application/json;+charset=utf-8 172
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type 'CipherRequest' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/messages - 200 - application/json;+charset=utf-8 0.2773ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/messages - application/json;+charset=utf-8 138112
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type 'CipherRequest' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/messages - 200 - application/json;+charset=utf-8 12.2690ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost/api/crypto-keys/rsa-public-key - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: GET /api/crypto-keys/rsa-public-key'
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type 'String' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /api/crypto-keys/rsa-public-key'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost/api/crypto-keys/rsa-public-key - 200 - application/json;+charset=utf-8 0.2686ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/sessions - application/json;+charset=utf-8 559
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/sessions'
+info: Microsoft.AspNetCore.Http.Result.CreatedResult[1]
+      Setting HTTP status code 201.
+info: Microsoft.AspNetCore.Http.Result.CreatedResult[3]
+      Writing value of type 'SessionCreated' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/sessions'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/sessions - 201 - application/json;+charset=utf-8 2.4866ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/messages - application/json;+charset=utf-8 239
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type 'CipherRequest' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/messages - 200 - application/json;+charset=utf-8 0.3101ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost/api/crypto-keys/rsa-public-key - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: GET /api/crypto-keys/rsa-public-key'
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type 'String' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /api/crypto-keys/rsa-public-key'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost/api/crypto-keys/rsa-public-key - 200 - application/json;+charset=utf-8 0.3967ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/messages - application/json;+charset=utf-8 21
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Http.Result.NotFoundObjectResult[1]
+      Setting HTTP status code 404.
+info: Microsoft.AspNetCore.Http.Result.NotFoundObjectResult[3]
+      Writing value of type '&lt;&gt;f__AnonymousType0`1' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/messages - 404 - application/json;+charset=utf-8 0.5507ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/sessions - application/json;+charset=utf-8 21
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/sessions'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/sessions'
+fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      Microsoft.AspNetCore.Http.BadHttpRequestException: Required parameter "string rsaIdHeader" was not provided from header.
+         at lambda_method58(Closure, Object, HttpContext, Object)
+         at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;&gt;c__DisplayClass102_2.&lt;&lt;HandleRequestBodyAndCompileRequestDelegateForJson&gt;b__2&gt;d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.&lt;Invoke&gt;g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Program.&lt;&gt;c.&lt;&lt;&lt;Main&gt;$&gt;b__0_1&gt;d.MoveNext() in /home/runner/work/architecture/architecture/src/Lab6.Server/Program.cs:line 19
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/sessions - 400 - text/plain;+charset=utf-8 5.4905ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/messages - application/json;+charset=utf-8 21
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/messages'
+fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      Microsoft.AspNetCore.Http.BadHttpRequestException: Required parameter "string sessionIdHeader" was not provided from header.
+         at lambda_method59(Closure, Object, HttpContext, Object)
+         at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;&gt;c__DisplayClass102_2.&lt;&lt;HandleRequestBodyAndCompileRequestDelegateForJson&gt;b__2&gt;d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.&lt;Invoke&gt;g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Program.&lt;&gt;c.&lt;&lt;&lt;Main&gt;$&gt;b__0_1&gt;d.MoveNext() in /home/runner/work/architecture/architecture/src/Lab6.Server/Program.cs:line 19
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/messages - 400 - text/plain;+charset=utf-8 0.6012ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost/api/crypto-keys/rsa-public-key/2147483647 - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: GET /api/crypto-keys/rsa-public-key/{id:int}'
+info: Microsoft.AspNetCore.Http.Result.NotFoundObjectResult[1]
+      Setting HTTP status code 404.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /api/crypto-keys/rsa-public-key/{id:int}'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost/api/crypto-keys/rsa-public-key/2147483647 - 404 - - 0.4685ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost/api/crypto-keys/rsa-public-key - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: GET /api/crypto-keys/rsa-public-key'
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type 'String' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /api/crypto-keys/rsa-public-key'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost/api/crypto-keys/rsa-public-key - 200 - application/json;+charset=utf-8 0.3863ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/sessions - application/json;+charset=utf-8 569
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/sessions'
+info: Microsoft.AspNetCore.Http.Result.CreatedResult[1]
+      Setting HTTP status code 201.
+info: Microsoft.AspNetCore.Http.Result.CreatedResult[3]
+      Writing value of type 'SessionCreated' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/sessions'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/sessions - 201 - application/json;+charset=utf-8 2.4661ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/messages - application/json;+charset=utf-8 161
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type 'CipherRequest' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/messages - 200 - application/json;+charset=utf-8 0.2739ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/messages - application/json;+charset=utf-8 161
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Http.Result.ConflictObjectResult[1]
+      Setting HTTP status code 409.
+info: Microsoft.AspNetCore.Http.Result.ConflictObjectResult[3]
+      Writing value of type '&lt;&gt;f__AnonymousType0`1' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/messages - 409 - application/json;+charset=utf-8 0.2313ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/messages - application/json;+charset=utf-8 175
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type 'CipherRequest' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/messages - 200 - application/json;+charset=utf-8 0.2318ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/api/messages - application/json;+charset=utf-8 7
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/messages'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/messages'
+fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      Microsoft.AspNetCore.Http.BadHttpRequestException: Failed to read parameter "CipherRequest request" from the request body as JSON.
+       ---&gt; System.Text.Json.JsonException: 'b' is an invalid start of a property name. Expected a '"'. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+       ---&gt; System.Text.Json.JsonReaderException: 'b' is an invalid start of a property name. Expected a '"'. LineNumber: 0 | BytePositionInLine: 1.
+         at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader&amp; json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+         at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+         at System.Text.Json.Utf8JsonReader.Read()
+         at System.Text.Json.Serialization.Converters.ObjectWithParameterizedConstructorConverter`1.ReadConstructorArgumentsWithContinuation(ReadStack&amp; state, Utf8JsonReader&amp; reader, JsonSerializerOptions options)
+         at System.Text.Json.Serialization.Converters.ObjectWithParameterizedConstructorConverter`1.OnTryRead(Utf8JsonReader&amp; reader, Type typeToConvert, JsonSerializerOptions options, ReadStack&amp; state, T&amp; value)
+         at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader&amp; reader, T&amp; value, JsonSerializerOptions options, ReadStack&amp; state)
+         --- End of inner exception stack trace ---
+         at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack&amp; state, JsonReaderException ex)
+         at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader&amp; reader, T&amp; value, JsonSerializerOptions options, ReadStack&amp; state)
+         at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize[TReadBufferState,TStream](TReadBufferState&amp; bufferState, JsonReaderState&amp; jsonReaderState, ReadStack&amp; readStack, T&amp; value)
+         at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync[TReadBufferState,TStream](TStream utf8Json, TReadBufferState bufferState, CancellationToken cancellationToken)
+         at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsObjectAsync(PipeReader utf8Json, CancellationToken cancellationToken)
+         at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync(HttpRequest request, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+         at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync(HttpRequest request, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+         at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;HandleRequestBodyAndCompileRequestDelegateForJson&gt;g__TryReadBodyAsync|102_0(HttpContext httpContext, Type bodyType, String parameterTypeName, String parameterName, Boolean allowEmptyRequestBody, Boolean throwOnBadRequest, JsonTypeInfo jsonTypeInfo)
+         --- End of inner exception stack trace ---
+         at Microsoft.AspNetCore.Http.RequestDelegateFactory.Log.InvalidJsonRequestBody(HttpContext httpContext, String parameterTypeName, String parameterName, Exception exception, Boolean shouldThrow)
+         at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;HandleRequestBodyAndCompileRequestDelegateForJson&gt;g__TryReadBodyAsync|102_0(HttpContext httpContext, Type bodyType, String parameterTypeName, String parameterName, Boolean allowEmptyRequestBody, Boolean throwOnBadRequest, JsonTypeInfo jsonTypeInfo)
+         at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;&gt;c__DisplayClass102_2.&lt;&lt;HandleRequestBodyAndCompileRequestDelegateForJson&gt;b__2&gt;d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.&lt;Invoke&gt;g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Program.&lt;&gt;c.&lt;&lt;&lt;Main&gt;$&gt;b__0_1&gt;d.MoveNext() in /home/runner/work/architecture/architecture/src/Lab6.Server/Program.cs:line 19
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/api/messages - 400 - text/plain;+charset=utf-8 7.0228ms
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[xUnit.net 00:00:10.31]   Finished:    Lab6.Tests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

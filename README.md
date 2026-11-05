@@ -34,6 +34,14 @@ dotnet run --project src/Lab6.Client -- http://localhost:5080
 
 У підготовленій локальній папці замість `dotnet` можна використовувати `./scripts/dotnet.ps1`. Для тестів є `run-tests.ps1`.
 
+Якщо Windows Application Control блокує завантаження зібраної DLL під час тестів (0x800711C7), можна виконати ту саму збірку й усі тести в Linux-контейнері:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\run-tests.ps1 -Docker
+```
+
+Або `docker build --target tests -t lab6-tests .`. Цей режим потребує запущеного Docker Desktop. Політику Windows змінювати не потрібно.
+
 ## Docker
 
 ```powershell

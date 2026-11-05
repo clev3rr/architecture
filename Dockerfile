@@ -7,6 +7,11 @@ RUN dotnet restore src/Lab6.Server/Lab6.Server.csproj
 COPY src/Lab6.Crypto/ src/Lab6.Crypto/
 COPY src/Lab6.Server/ src/Lab6.Server/
 RUN dotnet publish src/Lab6.Server/Lab6.Server.csproj -c Release -o /app --no-restore
+FROM build AS tests
+COPY Lab6.slnx ./
+COPY src/Lab6.Client/ src/Lab6.Client/
+COPY tests/ tests/
+RUN dotnet test Lab6.slnx -c Release --logger "trx;LogFileName=tests.trx" --results-directory /test-results
 FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
 WORKDIR /app
 COPY --from=build /app ./
