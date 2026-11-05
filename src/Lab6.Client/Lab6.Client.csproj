@@ -1,2 +1,2 @@
-<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><OutputType>Exe</OutputType></PropertyGroup>
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><OutputType>Exe</OutputType><UseAppHost>false</UseAppHost></PropertyGroup>
 <ItemGroup><ProjectReference Include="../Lab6.Crypto/Lab6.Crypto.csproj" /></ItemGroup></Project>
