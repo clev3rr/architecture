@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="src/Lab6.Crypto/Lab6.Crypto.csproj" />
+  <Project Path="src/Lab6.Server/Lab6.Server.csproj" />
+  <Project Path="src/Lab6.Client/Lab6.Client.csproj" />
+  <Project Path="tests/Lab6.Tests/Lab6.Tests.csproj" />
+</Solution>

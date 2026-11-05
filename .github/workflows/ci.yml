@@ -1,0 +1,21 @@
+name: LAB6 build and tests
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - run: dotnet restore Lab6.slnx
+      - run: dotnet build Lab6.slnx -c Release --no-restore
+      - run: dotnet test Lab6.slnx -c Release --no-build --logger "trx;LogFileName=tests.trx" --results-directory TestResults
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: lab6-test-results
+          path: TestResults/*.trx
+      - run: docker build -t lab6-server .

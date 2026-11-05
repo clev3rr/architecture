@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <ProjectReference Include="../Lab6.Crypto/Lab6.Crypto.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.14" />
+  </ItemGroup>
+</Project>

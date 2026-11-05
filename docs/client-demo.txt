@@ -1,0 +1,17 @@
+LAB6 | RSA-3072 + AES-256-GCM
+Сервер: http://127.0.0.1:5080/
+Введіть повідомлення. /new - нова сесія, /exit - вихід.
+> RSA ID: 5 | Сесія: 79d8ba7a-ec4d-46f7-af5a-1edfe71cb5ed | Повідомлення: 1
+Шифротекст Base64: JZzyIpcSbWUs6PUmthVIZiLhnpNtlfUac3nWIMFZCfLnWlRlFlVZegDd1bJqIhgq914Iz3oTlQG5G2GaCmRKGRtrjRhCnUUIWvw6xwuSDw0Z7OvRDLk3VD7j4W205KU6nswjIFgs/uv4l6wLu5G+hvp2f5NNFWLSjcuWui7sGYVSISupv74uTKTuDijWlYzaKosyZEzIJhKrQ+XpLxaEvy2DledsW89IX0nwVn7J+TxtXLZ3tqpwQaVLQepECMXI8yw+IFJbbmPoJpvJNL9L1VtrngoXZiRyq3o2eXF9S16bF3udGXPgYXqEwXM/JVg3iSjPYNqCyFFnQRuJ6kvQt3H7A9nLEQ7Ph6WgZloaQidMM+2IEZcYPeDadC0eyDKWu6y1U2n8YMpu6rTgipeZvQ==
+Відповідь: Привіт, сервере! Лабораторна робота 6. 🔐
+Отримано сервером: 2026-11-05T19:48:06.8035391+00:00
+> RSA ID: 5 | Сесія: 79d8ba7a-ec4d-46f7-af5a-1edfe71cb5ed | Повідомлення: 2
+Шифротекст Base64: ArHCKld/5+EdkNntJ0A7v5AzMmyI8fL9tQY5ozYUw6P2qcAglhkFdma5JUqbZp+1Y5rHH+M2zX7TIPWiv4858nyHolWTvgqNvrrb1/t4JV8g0QbUtI9LGVKfXAgBYRP6o0xxfzSJ6TJbvv5QzepVsZqqkLDm0H0fGBY/bHzU3C8UKbZOW7lhWdacWA+5e4/uvXH1ICwndRtxyMkfJJOGzq0u/qDeh4PTxlKA1vYM17wNeEW7qSG7gIjxfBV95qKwbskJWwjU+urv9ewxGPpF4jCHnfQqnkOjUVupANs1yM7VLtZbGxZkyoMIRsvDgaJiFpkXfy8LBb+ZRjeDdgbhSZPCejRf1TZedlOvaFNI88XCk5NhUSEmkxQXcj7TUXym4zhoLfZtQYqddL9vdGs+vD3SYswCgDHScQ==
+Відповідь: Повторне повідомлення в тій самій сесії.
+Отримано сервером: 2026-11-05T19:48:06.8109637+00:00
+> Наступне повідомлення відкриє нову сесію.
+> RSA ID: 4 | Сесія: 246d9919-52be-4750-a5f4-4bfef02edfc8 | Повідомлення: 1
+Шифротекст Base64: u27648yGtllePpuqsh40mB9CnRkIhYNSHHhZgFejwnMCRO60tGRoOFJXkP7Gk5N5rZThLNhIrcN7gS8ghfX+fXr8uWSEVvJfw1rpfO3Dg3U6rrU1NHGt3pJivgpAEVa9AQoZOR1hbie2bWkTv4LutJBi4kM4rrQsbmKZkKasrTY3KDfWTWSFiZHsNKyzJkFbrXGPK7ejG/rXM6NZZhd42jZMf2ExHGOw90dCjY/AtzIXiMsHOyOgQKKAX7a2ruNjVutgX7OOHDVKrm3bM9LfUR07vldFABl/uvLGKHPzP6cH6LZaJaxIea3PKLuZDKVyp/lxJ8khg8PTVlmLzaQsoq9bb9Ot0y47Cu4eyKnJ7ZOrbHMu
+Відповідь: Нове повідомлення з новою сесією.
+Отримано сервером: 2026-11-05T19:48:06.8393477+00:00
+> 
