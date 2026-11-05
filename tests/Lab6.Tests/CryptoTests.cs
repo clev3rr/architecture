@@ -42,7 +42,7 @@ public sealed class CryptoTests
     {
         var encrypted = Rsa.Encrypt(Pair.PublicKey, "secret");
         var other = Rsa.GenerateCryptoKeys();
-        Assert.Throws<CryptographicException>(() => Rsa.Decrypt(other.PrivateKey, encrypted));
+        Assert.ThrowsAny<CryptographicException>(() => Rsa.Decrypt(other.PrivateKey, encrypted));
     }
 
     [Fact]

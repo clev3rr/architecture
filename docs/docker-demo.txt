@@ -1,0 +1,8 @@
+LAB6 | RSA-3072 + AES-256-GCM
+Сервер: http://127.0.0.1:5081/
+Введіть повідомлення. /new - нова сесія, /exit - вихід.
+> RSA ID: 4 | Сесія: e9fb765c-9f97-4b3b-b7b9-ea9cac64d351 | Повідомлення: 1
+Шифротекст Base64: 4RZJ2AvzdmyFdBMuNHmPfc1bK5IAyTr/LMghBtXSvy85WxMOOe0aPBvCtXQn4fQxk2EU/RsKmbC/GuullDax+utvFNPbAR1BpsxFM9KQs6n2H0L29/FnTdfOrBRwYxNlPEzhgk+r1zQ7scssqx8cNQ0i8Cm2dkBrR81/LFxBInaKlbjaVFRwn2hIV70wNx0lhCPWf/GO33mnSWxi1myqMPDT96jmrUseo+TILiqDI/c1Lp6porpoFvZdver87sIEpN04QcGtkGcPM6SoOU3VtqpGUW7X3Kg=
+Відповідь: Перевірка сервера в Docker.
+Отримано сервером: 2026-11-05T19:49:00.5506162+00:00
+> 
